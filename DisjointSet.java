@@ -2,14 +2,17 @@ import java.util.ArrayList;
 public class DisjointSet{
 ArrayList<Integer> par;
 ArrayList<Integer> rank;
+ArrayList<Integer> rsize;
 int size;
     DisjointSet(int n){
          this.size=n;
          par=new ArrayList<>();
          rank=new ArrayList<>();
+         rsize=new ArrayList<>();
          for(int i=0;i<=n;i++){
             par.add(i);
             rank.add(0);
+            rsize.add(1);
          }     
     }
 
@@ -40,12 +43,24 @@ int size;
         }
 
     }
+    public void findUnionSize(int x,int y){
+        int rootx=findUltimateParent(x);
+        int rooty=findUltimateParent(y);
+        if(rootx==rooty)
+        return;
 
-    public boolean help(int x,int y){
-        if(findUltimateParent(x)==findUltimateParent(y))
-        return true;
+        if(rsize.get(rootx)>rsize.get(rooty)){
+            par.set(rooty,rootx);
+            rsize.set(rootx,rsize.get(rootx)+rsize.get(rooty));
+        }else{
+            par.set(rootx,rooty);
+            rsize.set(rooty,rsize.get(rootx)+rsize.get(rooty));  
+        }
+    }
 
-        return false;
+    public boolean isSameParent(int x,int y){
+        return (findUltimateParent(x)==findUltimateParent(y));
+        
     }
 
 
@@ -58,7 +73,7 @@ int size;
         set.findUnionRank(6, 7);
         set.findUnionRank(5, 6);
        // set.findUnionRank(3, 7);
-        if(set.help(3,7)){
+        if(set.isSameParent(3,7)){
             System.out.println("Same");
         }else{
             System.out.println("Not same");
