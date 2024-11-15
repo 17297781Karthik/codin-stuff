@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1a034e6-3ca6-4e83-ae29-ab8264d69359" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codin-stuff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codin-stuff.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomModels.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DA.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="d1a034e6-3ca6-4e83-ae29-ab8264d69359" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +59,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karthik cse\PycharmProjects\codin-stuff" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karthik cse\PycharmProjects\codin-stuff" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,6 +95,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/codin_stuff$dispensor.coverage" NAME="dispensor Coverage Results" MODIFIED="1731686399318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File dispensor" />
+    <SUITE FILE_PATH="coverage/codin_stuff$dispensor.coverage" NAME="dispensor Coverage Results" MODIFIED="1731688897420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File dispensor" />
   </component>
 </project>
